@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body, input {
+    font: 12px/1.5 "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    -webkit-font-smoothing: antialiased;
+}
+
+.header {
+    height: 100px;
+    margin: 0 225px;
+    position: relative;
+}
+.logo {
+    background: url(../images/logo.png) no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 88%;
+    float: left;
+    margin-right: 18px;
+}
+.text {
+    height: 16px;
+    background-color: #fefff1;
+    font-size: 12px;
+    color: #333;
+    border: 1px solid #fecd66;
+    position: absolute;
+    top: 36px;
+    left: 206px;
+}
+.text a {
+    color: #f60;
+}
+.text a:hover {
+    text-decoration: underline;
+}
+.finish {
+    color: #333;
+}
+.finish:hover {
+    color: #ed702d;
+}
+.write {
+    background: url(../images/write.png) no-repeat;
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 62px;
+    right: 116px;
+}
+.finishText {
+    margin-top: 62px;
+    float: right;
+    height: 18px;
+    font-size: 12px;
+}
+
+.bodyer {
+    height: 570px;
+    background: url(../images/login.jpeg) no-repeat;
+    background-position: center top;
+    position: relative;
+}
+.a {
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    left: 220px;
+}
+.formContainer {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    top: 50px;
+    right: 240px;
+    background-color: white;
+}
+.loginWay {
+    height: 35px;
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+    color: #f60;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+.underline {
+    width: 70px;
+    height: 3px;
+    background-color: #f60;
+    position: absolute;
+    left: 145px;
+    bottom: 0;
+}
+.all {
+    width: 310px;
+    height: 36px;
+    background-color: white;
+    color: #ccc;
+    border: 1px solid #ccc;
+    position: absolute;
+    margin-left: 24px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.all input {
+    width: 243px;
+    height: 36px;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 32px;
+}
+.submit {
+    width: 310px;
+    height: 40px;
+    background-color: #f60;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-left: 24px;
+    margin-top: 200px;
+}
+.submit:hover {
+    background-color: #ec622b;
+    cursor: pointer;
+}
+.forget {
+    font-size: 12px;
+    color: #333;
+    position: absolute;
+    top: 228px;
+    right: 30px;
+}
+.forget:hover {
+    color: #ed702d;
+    text-decoration: underline;
+}
+.toRegister {
+    font-size: 12px;
+    color: #f60;
+    position: absolute;
+    left: 140px;
+    bottom: 45px;
+}
+.toRegister:hover {
+    text-decoration: underline;
+}
+.alert {
+    width: 310px;
+    height: 24px;
+    background-color: #fcf1f0;
+    border: 1px solid #ff3c3c;
+    color: #323232;
+    font-size: 12px;
+    position: absolute;
+    display: none;
+    left: 24px;
+    top: 58px;
+    line-height: 24px;
+}
+.wrong {
+    width: 18px;
+    height: 18px;
+    background: url(../images/wrong.png) no-repeat;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.alertText {
+    height: 24px;
+    position: absolute;
+    top: 0;
+    left: 38px;
+}
+.delete {
+    width: 12px;
+    height: 12px;
+    background: url(../images/delete.png) no-repeat;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    display: none;
+}
+.delete:hover {
+    cursor: pointer;
+}
+
+/* 此段页脚大部分引用自苏宁易购页脚源代码 */
+.ng-s-footer {
+    height: 185px;
+    background: none;
+    text-align: center;
+    padding-top: 15px;
+}
+.ng-s-footer p.ng-url-list {
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+}
+.ng-s-footer p.ng-url-list a {
+    color: #666666;
+    text-decoration: none;
+    outline: 0;
+    line-height: 25px;
+}
+.ng-s-footer p.ng-url-list a:hover {
+    color: #ed702d;
+    text-decoration: underline;
+}
+.ng-s-footer p.ng-url-list span {
+    color: #888;
+    padding: 0 8px;
+}
+.ng-s-footer p.ng-copyright {
+    float: none;
+    width: 100%;
+    line-height: 25px;
+    color: #999;
+    height: 25px;
+    margin: 0;
+}
+.ng-s-footer p.ng-copyright a {
+    text-decoration: none;
+    color: #999;
+    outline: 0;
+}
+.ng-s-footer p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.ng-s-footer .ng-authentication {
+    float: none;
+    margin: 0 auto;
+    height: 25px;
+    width: 990px;
+    margin-top: 5px;
+}

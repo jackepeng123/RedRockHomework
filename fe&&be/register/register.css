@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #f8f8f8;
+}
+body, input {
+    font: 12px/1.5 "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    -webkit-font-smoothing: antialiased;
+}
+
+.header {
+    height: 88px;
+    border-bottom: 2px solid #f19e38;
+    margin: 0 225px;
+}
+.header .logo {
+    background: url(../images/logo.png) no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 100%;
+    float: left;
+    margin-right: 25px;
+}
+.header .text {
+    font-size: 16px;
+    color: #666;
+    padding: 40px 0 25.5px;
+}
+.header .finish {
+    font-size: 12px;
+    color: #333;
+    float: right;
+    padding-top: 24px;
+}
+.header .finish:hover {
+    color: #ed702d;
+}
+.bodyer {
+    height: 340px;
+    background-color: white;
+    position: relative;
+    margin: 0 225px;
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 55px 0;
+    font-size: 14px;
+}
+.bodyer .redpacket {
+    width: 380px;
+    position: absolute;
+    left: 305px;
+}
+.redpacket .gift {
+    background: url(../images/gift.png) no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+}
+.bodyer span {
+    color: #ec5428;
+}
+.alert {
+    font-size: 12px;
+    color: #f00;
+    position: absolute;
+    left: 305px;
+}
+.all {
+    width: 378px;
+    height: 38px;
+    position: absolute;
+    left: 305px;
+    background-color: white;
+    color: red;
+    border: 1px solid #ccc;
+}
+.all label {
+    margin: 0 30px;
+    line-height: 38px;
+    font-size: 12px;
+    display: inline-block;
+    color: #222;
+}
+.all input {
+    width: 254px;
+    height: 38px;
+    border: none;
+    outline: none;
+}
+.right {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+}
+.submit {
+    width: 380px;
+    height: 40px;
+    position: absolute;
+    left: 305px;
+    bottom: 65px;
+    font-size: 20px;
+    background-color: #f60;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* 此段页脚大部分引用自苏宁易购页脚源代码 */
+.ng-s-footer {
+    height: 185px;
+    background: none;
+    text-align: center;
+    padding-top: 15px;
+}
+.ng-s-footer p.ng-url-list {
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+}
+.ng-s-footer p.ng-url-list a {
+    color: #666666;
+    text-decoration: none;
+    outline: 0;
+    line-height: 25px;
+}
+.ng-s-footer p.ng-url-list a:hover {
+    color: #ed702d;
+    text-decoration: underline;
+}
+.ng-s-footer p.ng-url-list span {
+    color: #888;
+    padding: 0 8px;
+}
+.ng-s-footer p.ng-copyright {
+    float: none;
+    width: 100%;
+    line-height: 25px;
+    color: #999;
+    height: 25px;
+    margin: 0;
+}
+.ng-s-footer p.ng-copyright a {
+    text-decoration: none;
+    color: #999;
+    outline: 0;
+}
+.ng-s-footer p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.ng-s-footer .ng-authentication {
+    float: none;
+    margin: 0 auto;
+    height: 25px;
+    width: 990px;
+    margin-top: 5px;
+}

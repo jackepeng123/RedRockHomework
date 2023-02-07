@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: white;
+    font: 12px/1.5 "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+}
+
+.leader {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    background-color: #f5f5f5;
+}
+.login , .register{
+    position: relative;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #666;
+}
+.a1 .login:hover {
+    color: #ed702d;
+}
+.login {
+    width: 40px;
+    margin-left: 150px;
+}
+.register {
+    width: 50px;
+    margin-left: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #ed702d;
+}
+.selfPage , .order , .anotherCar {
+    position: relative;
+    float: right;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #666;
+}
+.order:hover , .selfPage:hover {
+    background-color: white;
+    color: #d66528;
+
+}
+.anotherCar {
+    margin-right: 150px;
+    background: url(../images/anotherCar.png) no-repeat;
+    background-color: white;
+    background-size: 40px 20px;
+    background-position: 0 center;
+    color: #d66528;
+    text-indent: 3em;
+}
+.a2:visited {
+    color: #d66528;
+}
+
+.logoArea {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.logoArea a {
+    display: inline-block;
+    width: 190px;
+    height: 100px;
+    margin: 5px 200px;
+    background: url(../images/logo.png) no-repeat;
+    background-size: 190px 90px;
+}
+
+.blank {
+    display: none;
+    position: relative;
+    width: 990px;
+    height: 260px;
+    margin: auto;
+    background: url(../images/emptyCar.png) no-repeat;
+    background-size: 238px 156px;
+    background-position: 140px center;
+}
+.blankText {
+    width: 500px;
+    height: 80px;
+    padding: 90px 0 90px 420px;
+    color: #333;
+    font-size: 20px;
+    line-height: 80px;
+}
+.blank a {
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #f60;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+.blank a:hover {
+    background-color: #eb5428;
+}
+
+.shopArea {
+    width: 990px;
+    margin: auto;
+}
+.title {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ddd;
+}
+.inner {
+    float: left;
+    width: 165px;
+    height: 30px;
+    color: #666;
+    font-size: 13px;
+    line-height: 30px;
+}
+.contentArea {
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ddd;
+    margin: 30px auto;
+}
+.innerArea {
+    float: left;
+    position: relative;
+    width: 165px;
+    height: 120px;
+}
+#imgArea input {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+#imgArea img {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    width: 80px;
+    height: 80px;
+}
+.innerText , .priceText {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color: #333;
+    font-size: 12px;
+}
+.innerText:hover {
+    color: #ee7f31;
+}
+#numberArea div {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 80px;
+    height: 22px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+#numberArea input {
+    width: 26px;
+    height: 22px;
+    outline: none;
+    border: none;
+    color: #666;
+    text-align: center;
+}
+#numberArea a {
+    width: 22px;
+    height: 22px;
+    font-size: 16px;
+    color: #999;
+}
+.totalText {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: #333;
+    font-size: 12px;
+    font-weight: 600;
+}
+#operation a {
+    display: block;
+    position: absolute;
+    left: 50px;
+    color: #666;
+    font-size: 12px;
+}
+.end {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ddd;
+}
+.chooseAll {
+    float: left;
+    width: 50px;
+    height: 20px;
+    margin: 20px 10px;
+    color: #333;
+    font-size: 13px;
+}
+.deleteAll {
+    float: left;
+    width: 80px;
+    height: 20px;
+    margin: 20px 0 20px 20px;
+    color: #666;
+    font-size: 12px;
+}
+.toSettle {
+    float: right;
+    width: 120px;
+    height: 60px;
+    background-color: #f60;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 60px;
+}
+.totalPrice {
+    float: right;
+    width: 210px;
+    height: 40px;
+    margin: 10px 10px 10px 0;
+    text-indent: 10px;
+    line-height: 40px;
+    border-left: 1px solid #ddd;
+}
+.number {
+    display: inline-block;
+    color: #f60;
+    font-size: 20px;
+    text-indent: 0;
+}
+
+/* 此段页脚大部分引用自苏宁易购页脚源代码 */
+.ng-s-footer {
+    height: 185px;
+    background: none;
+    text-align: center;
+    padding-top: 15px;
+}
+.ng-s-footer p.ng-url-list {
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+}
+.ng-s-footer p.ng-url-list a {
+    color: #666666;
+    text-decoration: none;
+    outline: 0;
+    line-height: 25px;
+}
+.ng-s-footer p.ng-url-list a:hover {
+    color: #ed702d;
+    text-decoration: underline;
+}
+.ng-s-footer p.ng-url-list span {
+    color: #888;
+    padding: 0 8px;
+}
+.ng-s-footer p.ng-copyright {
+    float: none;
+    width: 100%;
+    line-height: 25px;
+    color: #999;
+    height: 25px;
+    margin: 0;
+}
+.ng-s-footer p.ng-copyright a {
+    text-decoration: none;
+    color: #999;
+    outline: 0;
+}
+.ng-s-footer p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.ng-s-footer .ng-authentication {
+    float: none;
+    margin: 0 auto;
+    height: 25px;
+    width: 990px;
+    margin-top: 5px;
+}

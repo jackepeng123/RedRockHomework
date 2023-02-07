@@ -1,0 +1,437 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: white;
+    font: 12px/1.5 "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+.leader {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    background-color: #f5f5f5;
+}
+.login , .register{
+    position: relative;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #666;
+}
+.a1 .login:hover {
+    color: #ed702d;
+}
+.login {
+    width: 40px;
+    margin-left: 150px;
+}
+.register {
+    width: 50px;
+    margin-left: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #ed702d;
+}
+.selfPage , .order , .anotherCar {
+    position: relative;
+    float: right;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #666;
+}
+.order:hover , .selfPage:hover {
+    background-color: white;
+    color: #d66528;
+
+}
+.anotherCar {
+    margin-right: 150px;
+    background: url(../images/anotherCar.png) no-repeat;
+    background-size: 40px 20px;
+    background-position: 0 center;
+    color: #d66528;
+    text-indent: 3em;
+}
+.anotherCar:hover {
+    background-color: white;
+}
+.a2:visited {
+    color: #d66528;
+}
+
+.header {
+    position: relative;
+    height: 90px;
+}
+.logo {
+    position: absolute;
+    left: 8.3%;
+    top: 10px;
+    width: 190px;
+    height: 70px;
+    background: url(../images/logo.png) no-repeat;
+    background-size: 190px 90px;
+    background-position: center -10px;
+    padding-right: 40px;
+    border-right: 2px solid #eee;
+}
+.shop {
+    position: absolute;
+    left:8.3%;
+    margin-left: 252px;
+    width: 190px;
+    height: 90px;
+    color: #333;
+    line-height: 90px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.shop:hover {
+    text-decoration: underline;
+}
+.shop:visited {
+    color: #333;
+}
+
+.smallImg , .bigImg {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+}
+.smallImg {
+    position: relative;
+    left: 120px;
+    top: 20px;
+    background: url(../images/1,1.jpeg) no-repeat; 
+    cursor: move;
+}
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    display: none;
+    background-color: #fede4f;
+    opacity: 0.5;
+    border: 1px solid #aaa;
+}
+.bigImg {
+    position: relative;
+    left: 120px;
+    top: 20px;
+    display: none;
+    z-index: 1;
+    overflow: hidden;
+    background: url(../images/1,1+.png) no-repeat;
+}
+
+.text {
+    position: absolute;
+    left: 580px;
+    top: 180px;
+    width: 600px;
+    height: 350px;
+}
+.titile , .priceArea {
+    position: relative;
+    width: 100%;
+}
+.title {
+    display: block;
+    height: 50px;
+    text-indent: 5px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #222;
+}
+.priceArea {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    background-color: #fef8f4;
+    margin-bottom: 20px;
+}
+.price {
+    width: 60px;
+    height: 20px;
+    padding-left: 5px;
+    color: #999;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.number {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    color: #e00;
+    font-size: 30px;
+    font-weight: 700;
+}
+.btnArea {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    border-top: 1px dotted #ddd;
+    align-items: center;
+}
+.btnArea div {
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.care {
+    position: absolute;
+    left: 60px;
+    background-color: #663200;
+}
+.care:hover {
+    background-color: #462708;
+}
+.add {
+    position: absolute;
+    left: 200px;
+    background-color: #f50;
+}
+.add:hover {
+    background-color: #eb4624;
+}
+.serveArea {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    border-top: 1px dotted #ddd;
+}
+.serve {
+    width: 80px;
+    height: 20px;
+    color: #999;
+    font-size: 12px;
+    text-indent: 5px;
+    letter-spacing: 21px;
+}
+.promise {
+    width: 80px;
+    height: 20px;
+    color: #666;
+    font-size: 12px;
+}
+.promise:hover {
+    color: #ed702d;
+    text-decoration: underline;
+}
+
+.universal {
+    position: relative;
+    left: 245px;
+    top: 50px;
+    width: 950px;
+    height: 950px;
+}
+.option {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #f7f7f7;
+}
+.details , .comment {
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 50px;
+    color: #222;
+    font-size: 14px;
+    cursor: pointer;
+}
+.details:hover , .comment:hover {
+    color: #f60;
+}
+.detailsPage , .commentPage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.details {
+    color: #f60;
+    background-color: white;
+    border: 1px solid #f60;
+}
+.auth {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #666;
+    font-size: 12px;
+    text-indent: 20px;
+    line-height: 40px;
+}
+.auth a {
+    color: #38d;
+}
+.auth a:hover {
+    color: #ed702d;
+    text-decoration: underline;
+}
+.detailsPage img {
+    display: block;
+    position: relative;
+    padding:0 100px;
+}
+.commentPage {
+    display: none;
+}
+.rate {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    margin: 15px 0;
+    border: 1px solid #eee;
+}
+.rateBox {
+    width: 125px;
+    height: 60px;
+    padding-left: 30px;
+}
+.numberRate {
+    width: 125px;
+    height: 40px;
+    color: #f70;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.rateText {
+    color: #999;
+    font-size: 12px;
+}
+.impression {
+    width: 16px;
+    height: 106px;
+    color: #bbb;
+    font-size: 12px;
+    text-align: center;
+}
+.noImpression {
+    width: 355px;
+    height: 101px;
+    background: url(../images/noImpression.png) no-repeat;
+    margin-left: 200px;
+}
+.commentArea {
+    position: relative;
+    width: 100%;
+    height: 456px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+}
+.commentList {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ddd;
+}
+.photo {
+    width: 100px;
+    height: 100px;
+    margin: 0 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.commentBox {
+    width: 400px;
+    height: 100px;
+}
+.fiveStars {
+    width: 70px;
+    height: 20px;
+    margin-top: 20px;
+    background: url(../images/fiveStars.png) no-repeat;
+}
+.commentText {
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+    color: #666;
+    font-size: 12px;
+}
+
+/* 此段页脚大部分引用自苏宁易购页脚源代码 */
+.ng-s-footer {
+    position: relative;
+    top: 3650px;
+    height: 185px;
+    background: none;
+    text-align: center;
+    padding-top: 15px;
+}
+.ng-s-footer p.ng-url-list {
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+}
+.ng-s-footer p.ng-url-list a {
+    color: #666666;
+    text-decoration: none;
+    outline: 0;
+    line-height: 25px;
+}
+.ng-s-footer p.ng-url-list a:hover {
+    color: #ed702d;
+    text-decoration: underline;
+}
+.ng-s-footer p.ng-url-list span {
+    color: #888;
+    padding: 0 8px;
+}
+.ng-s-footer p.ng-copyright {
+    float: none;
+    width: 100%;
+    line-height: 25px;
+    color: #999;
+    height: 25px;
+    margin: 0;
+}
+.ng-s-footer p.ng-copyright a {
+    text-decoration: none;
+    color: #999;
+    outline: 0;
+}
+.ng-s-footer p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.ng-s-footer .ng-authentication {
+    float: none;
+    margin: 0 auto;
+    height: 25px;
+    width: 990px;
+    margin-top: 5px;
+}
